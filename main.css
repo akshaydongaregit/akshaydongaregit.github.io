@@ -1,0 +1,19 @@
+body
+{
+  background:url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&h=350');
+}
+.head
+{
+  font:bold 100% "Segoe UI";
+  background:rgba(0,0,200,.8);
+}
+.body
+{
+  font:bold 100% "Segoe UI";
+  background:rgba(0,0,200,.8);
+}
+.bottom
+{
+  font:bold 100% "Segoe UI";
+  background:rgba(0,0,200,.8);
+}
