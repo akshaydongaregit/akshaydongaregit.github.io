@@ -1,16 +1,25 @@
+@font-face
+{
+  font-family: anironFirst;
+  src:url('anirm_.ttf');
+}
 body
 {
-  background:url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&h=350');
+  background:url('https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png') no-repeat;
+  background-size:cover;
 }
+
 .head
 {
-  font:bold 100% "Segoe UI";
-  background:rgba(0,0,200,.8);
+  font:bold 100% "anironFirst";
+  background:rgba(120,120,255,.4);
+  color:rgba(255,255,255);
 }
 .body
 {
-  font:bold 100% "Segoe UI";
-  background:rgba(0,0,200,.8);
+  font:bold 100% "anironFirst";
+  background:rgba(120,120,255,.4);
+  color:rgba(255,255,255);
 }
 .bottom
 {
