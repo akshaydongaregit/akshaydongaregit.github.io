@@ -13,7 +13,7 @@ body
 {
   font:bold 100% "anironFirst";
   background:rgba(20,20,50,.5);
-  color:rgba(255,255,255);
+  color:rgba(225, 145, 251, 0.87);
   width:98%;
   height:60px;
   padding-left:10%;
@@ -29,6 +29,7 @@ body
   width:94%;
   height:600px;
   margin-left:3%;
+  margin-top:8%;
   padding-left:3%;
   box-sizing:border-box;
 }
@@ -41,4 +42,32 @@ body
   width:94%;
   height:60px;
   padding-left:10%;
+}
+
+/*nav bar design*/
+.nav
+{
+  box-sizing:border-box;
+  margin-top:-2%;
+  margin-left:-10%;
+  background: rgba(255,255,255,0.9);
+
+}
+
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+li{
+  float:left;
+}
+
+li a {
+    display: block;
+    color: rgba(19, 19, 142, 0.4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
