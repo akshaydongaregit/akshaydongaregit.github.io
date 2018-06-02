@@ -5,24 +5,40 @@
 }
 body
 {
-  background:url('https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png') no-repeat;
-  background-size:cover;
+  background:url('content/img/back3.jpg') no-repeat;
+  background-size:cover;  
 }
 
 .head
 {
   font:bold 100% "anironFirst";
-  background:rgba(120,120,255,.4);
+  background:rgba(20,20,50,.5);
   color:rgba(255,255,255);
+  width:98%;
+  height:60px;
+  padding-left:10%;
+  margin-left:1%;
+  box-sizing:border-box;
 }
+
 .body
 {
   font:bold 100% "anironFirst";
   background:rgba(120,120,255,.4);
   color:rgba(255,255,255);
+  width:94%;
+  height:600px;
+  margin-left:3%;
+  padding-left:3%;
+  box-sizing:border-box;
 }
+
 .bottom
 {
+  margin-top:2%;
   font:bold 100% "Segoe UI";
-  background:rgba(0,0,200,.8);
+  background:rgba(20,20,50,.4);
+  width:94%;
+  height:60px;
+  padding-left:10%;
 }
