@@ -3,22 +3,40 @@
   font-family: anironFirst;
   src:url('anirm_.ttf');
 }
+
 body
 {
   background:url('content/img/back3.jpg') no-repeat;
   background-size:cover;  
 }
 
+/*parallax effect css*/
+
+/*.back-first
+{
+  background-image: url('content/img/back3.jpg');
+  min-height:500px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+*/
+
 .head
 {
   font:bold 100% "anironFirst";
   background:rgba(20,20,50,.5);
-  color:rgba(225, 145, 251, 0.87);
   width:98%;
   height:60px;
   padding-left:10%;
   margin-left:1%;
   box-sizing:border-box;
+}
+
+.heading-title
+{
+  color:rgba(225, 145, 251, 0.87);
+   text-shadow: 1px 1px 4px rgba(200,30,200,1);
 }
 
 .body
